@@ -1,0 +1,93 @@
+
+
+.about h3 {
+    padding-left: 1vw;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+}
+
+.menu h4 {
+    padding-top: 30px;
+    padding-left: 1vw;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px; 
+    padding-left: 1vw; 
+    justify-items: center;
+    align-items: center; 
+}
+
+.grid img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0; 
+    object-fit:100% 100%;
+}
+
+.map{
+  padding-left: 18vw;
+    position: sticky;
+     
+  }
+  
+
+
+.map iframe{
+  position: fixed;
+  top: 60%;
+  position: sticky;
+
+}
+
+.line {
+    width: 58%;
+    margin-left: 13%;
+    margin-top: 10px;
+
+}
+
+.menuname {
+    padding-left: 1vw;
+    margin-top: 25px;
+}
+
+
+.dishes{
+    display: flex;
+    padding-left: 1vw;
+}
+
+.dishes h3 {
+    padding: 10px 20px;
+    color: rgb(15, 15, 15);
+    background: #f1af44;
+    border-radius: 5px;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 500;
+    width: 180px;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.popular {
+    padding-left: 1vw;
+    margin-top: 20px;
+}
+
+.popular p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+
+ 

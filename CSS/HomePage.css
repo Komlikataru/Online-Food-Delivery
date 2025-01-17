@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+nav{
+    height: 8vh;
+    width: 100%;
+}
+
+.navbar
+{
+    background-color: white;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 92;
+}
+
+.hungrybird{
+  position: fixed;
+  z-index: 99;
+  height: 8vh;
+  width: 5vw;
+  top: 0%;
+  left: 3%;
+}
+
+
+
+.logo h1{
+    position: fixed;
+    left: 8%;
+    letter-spacing: 2px;
+    top: 2.5%;
+    font-family: 'Poppins',sans-serif;
+    font-size: 125%;
+    font-weight: 600;
+    z-index: 99;
+}
+
+.search_btn{
+  position: fixed;
+  left: 25.6%;
+  top: 2.4%;
+  cursor: pointer;
+  color: black;
+  transition: all .3s ease;
+  z-index: 99;
+  background: transparent;
+  border: 0px;
+  color: orange;
+}
+.searchbar{
+    position: fixed;
+    top: 1.5%;
+    left: 25%;
+    padding: 1vh 32vw 1vh 3vw; 
+    border-radius: 6px;
+    border: 2px solid grey;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    z-index: 92;
+}
+
+.logsign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2vh -12vw 2vh 0vw;
+}
+
+
+.lginout{
+  position: relative;
+  padding: 0px 1vw 0px 1vw;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid rgb(205, 205, 205);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.arrow{
+  position: absolute;
+  font-size: 15px;
+  top: 38%;
+  right: 16.5%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.arrow:hover{
+  rotate: 180deg;
+}
+
+.dashboard{
+  display: none;
+  position: absolute;
+  top: 75%;
+  right: 18%;
+}
+
+.dropdown{
+  display: flex;
+  flex-direction: column;
+  
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.dropdown span{
+  padding: 0px 25px 0px 25px;
+}
+
+.line{
+  height: 0px;
+  width: 100%;
+  background-color: white;
+}
+
+.lginout:hover .dashboard{
+  display: block;
+  
+}
+
+.usern{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto",sans-serif;
+  margin: 0.4vh 1vw 1vh 1vw;
+  letter-spacing: 1px;
+
+}
+
+.categories{
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.backgroundimg{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+  filter: blur(3px);
+}
+
+.delivery{
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.delivery p {
+  margin: 2.8vh 0.8vw;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.delivery img{
+  height:6vh;
+  width: 3.0vw;
+  margin-left: 7.5vw;
+  margin-top: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.dineout{
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.dineout img{
+  height: 6vh;
+  width: 3.0vw;
+  margin-left: 23vw;
+  margin-top: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.dineout p{
+  margin: 2.8vh 0.8vw;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.dishes_sect{
+  width: 85%;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 12vh;
+  letter-spacing: 3px;
+}
+.dishes{
+  width: 100%;
+  margin: auto;
+  margin-top: 6vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dish{
+  height: 25vh;
+  width: 12.5vw;
+  text-align: center;
+  font-weight: 500;
+}
+
+.dish img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-bottom: 2vh;
+}
+
+.dish p{
+  color: black;
+  text-decoration:none;
+  
+}
+
+.brands_sect{
+  width: 85%;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 12vh;
+  letter-spacing: 3px;
+}
+
+.brands{
+  width: 100%;
+  margin: auto;
+  margin-top: 6vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand{
+  height: 25vh;
+  width: 12.5vw;
+  text-align: center;
+  font-weight: 500;
+}
+
+.brand img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-bottom: 2vh;
+  object-fit: cover;
+}
+
+.experience{
+   margin: auto;
+}
+
+.experience_sectone{
+    margin: auto;
+    width: 85%;
+    margin-top: 40px ;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+.experience_sectone h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.experience_sectone h2{
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.experience_secttwo{
+
+    width: 85%;
+    height: 65%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    /* background-color: black; */
+    margin: auto;
+    grid-gap: 4%;
+    justify-content: space-between;
+}
+
+.card{
+    /* height: 350px;
+    width: 300px; */
+}
+
+
+.card img{
+    height: 85%;
+    width: 100%;
+    position: relative;
+    border-radius: 12px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.card h3{
+    position: absolute;
+    top: 185vh;
+    padding-left: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.card h3:hover{
+  transform: scale(1.10);
+}
+
+.text{
+  font-family: 'Roboto',sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+
+.mySlides {
+    display: none
+}
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+  max-width: 85%;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.restaurant_cont{
+  background-color:white;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  margin: auto; 
+}
+
+.restaurant_cont h1{
+  margin: 5vh 6.5vw;
+}
+.restaurants_grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width:92%;
+  margin: auto;
+}
+.restaurants{
+  height: 85%;
+  overflow: hidden;
+  margin: auto;
+  width: 80%;
+  border-radius: 6px;
+  transition: ease-in-out 0.3s;
+}
+
+.title{
+  color: black;
+}
+
+.desc{
+  color: black;
+}
+.location{
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+
+.restaurants:hover{
+  border: 1px solid grey;
+  box-shadow: 5px 8px 19px 5px rgba(0,0,0,.2);
+}
+.restaurants_sectone{
+  height: 70%;
+  width: 100%;
+}
+
+.restaurants_sectone img{
+  height: 100%;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.desc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.location{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.restaurants_secttwo{
+  height: 55%;
+  width: 100%;
+  padding: 10px 24px 24px 27px;
+}
+
+.ratings{
+  background-color: rgb(49, 246, 49);
+  color: white;
+  border-radius: 7px;
+  text-align: center;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.star{
+  margin: 0px 5px;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+.dot{
+ height: 10px;
+  width: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .prev, .next,.text {font-size: 14px}
+}}
+
+

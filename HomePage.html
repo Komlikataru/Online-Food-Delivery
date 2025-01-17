@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="./CSS/HomePage.css">
+    
+</head>
+<body>
+    <nav>
+    <div class="navbar">
+        <div class="logo">
+            <img src="./IMG/hungrybird.png" class="hungrybird" alt=""><h1 class="hungrybirdtxt">HUNGRY BIRD</h1>
+        </div>
+        <div class="search">
+            <button class = "search_btn"><svg xmlns="http://www.w3.org/2000/svg" class = "searchlogo"width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></button> <input type="text"  class = "searchbar" placeholder="Search Restaurants..." />
+        </div>
+        
+        <div class="logsign">
+            <button class="lginout" onclick="logout()">LOG IN</button>
+            <div class="dashboard">
+                <div class="dropdown">
+                    <span> Profile </span>
+                        <span class="line"></span>
+                    <span> About </span>
+                </div>
+            </div>    
+                <span class="usern">USER</span>
+            </div>
+    </div>
+</nav>
+
+<div class="categories">
+    <img src="./IMG/fruits.jpg" class="backgroundimg" alt="">
+    <div class="delivery"><img src="./IMG/logohungrybird.png" class = "deliverylogo" alt="Image over here"><p class="deliverytext">FOOD DELIVERY</p></div>
+    <div class="dineout"><img src="./IMG/diningbird.png" class = "dineoutlogo" alt="Image over here"><p class = "deliverytext">DINING OUT</p></div>
+</div>
+
+<div class="dishes_sect">
+<h1 class="Inspiration">INSPIRATION FOR YOUR FIRST ORDER</h1>
+<div class="dishes">
+    <div class="dish">
+        <a href="PizzaPage.html"><img src="./IMG/pizza.jpg" class = "Pizzaimage"alt=""></a>
+        <p class = "Pizzatext">PIZZA</p>
+    </div>
+
+    <div class="dish">
+        <a href="Biryani.html"><img src="./IMG/biryani.jpg" class = "Biryaniimage" alt=""></a>
+        <p class = "Biryanitext">BIRYANI</p>
+    </div>
+
+    <div class="dish">
+        <a href="Burger.html"><img src="./IMG/burger.jpg" class = "Burgerimage" alt=""></a>
+        <p class = "Burgertext">BURGER</p>
+    </div>
+
+    <div class="dish">
+        <a href="Rolls.html"><img src="./IMG/rolls.jpg" class = "rollsimage" alt=""></a>
+        <p class = "rollstext">ROLLS</p>
+    </div>
+
+    <div class="dish">
+        <a href="ChickenPage.html"><img src="./IMG/chicken.jpg" class = "Chickenimage"alt=""></a>
+        <p class = "Chickentext">CHICKEN</p>
+    </div>
+</div>
+</div>
+
+<div class="brands_sect">
+    <h1>TOP BRANDS FOR YOU</h1>
+    <div class="brands">
+        <div class="brand">
+           <a href="MCD.html"> <img src="./IMG/mcdonalds.jpg" alt=""></a>
+            <p>MC DONALD's</p>
+        </div>
+    
+        <div class="brand">
+            <a href="subway.html"><img src="./IMG/256_subway.jpg" alt=""></a>
+            <p>SUBWAY</p>
+        </div>
+    
+        <div class="brand">
+            <a href="burger_king.html"><img src="./IMG/Burger-King-Logo.jpg" alt=""></a>
+            <p>BURGER KING</p>
+        </div>
+    
+        <div class="brand">
+            <a href="KFC.html"><img src="./IMG/KFC_logo_1.jpg" alt=""></a>
+            <p>KFC</p>
+        </div>
+    
+        <div class="brand">
+            <a href="dominos.html"><img src="./IMG/Domino_s_Pizza-logo.jpg" alt=""></a>
+            <p>DOMINO'S</p>
+        </div>
+    </div>
+    </div>
+
+
+<div class="container">
+   <div class="experience">
+
+        <div class="experience_sectone">
+            <h1>Experience</h1>
+            <h2>Explore curated lists of top restaurants, cafes, pubs, and bars in Pune, based on trends</h2>
+        </div>
+
+        <div class="experience_secttwo">
+            <div class="card">
+                <img src="./IMG/dining.jpg" alt="image here">
+                <h3>Dining Out in Pune</h3>
+            </div>
+            
+            <div class="card">
+                <img src = "./IMG/livescreening.jpg" alt="image here">
+                <h3>Live Screenings & Events</h3>
+            </div>
+            
+            <div class="card">
+                <img src="./IMG/date.jpg" alt="iamge here">
+                <h3>It's a Date</h3>
+            </div>
+
+            <div class="card">
+                <img src="./IMG/nightlife.png" alt="image here">
+                <h3>Night Life</h3>
+            </div>    
+        </div>
+   </div>
+</div> 
+
+
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="./IMG/publiq.jpg" style="width:100%">
+        <div class="text">PUBLIQ OFFER</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="./IMG/rio kitchen and bar.jpg" style="width:100%">
+        <div class="text">RIO KITCHEN & BAR</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="./IMG/talli.jpg" style="width:100%">
+        <div class="text">TALLI OFFERS</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="./IMG/SpiceFactory.jpg" style="width:100%">
+        <div class="text">SPICE FACTORY</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="./IMG/the urban fondry.jpg" style="width:100%">
+        <div class="text">THE URBAN FOUNDARY</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<hr>
+
+<div class="restaurant_cont">
+    <h1>TOP RESTAURANTS IN PUNE</h1>
+    <div class="restaurants_grid">
+    <div class="restaurants">
+        <a href="Talli.html"><div class="restaurants_sectone"><img src="./IMG/tallires.jpg" alt="Image Here">
+        <div class="restaurants_secttwo">
+            <div class="title"><h3>TALLI</h3><h4 class="ratings">4.3 <svg xmlns="http://www.w3.org/2000/svg" class = "star" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></h4></div>
+            <div class="desc"><p>North Indian,Pizza,Pasta,....</p><p>₹1,900 for two</p></div>
+        <div class="location"><p>Baner,Pune</p><p>983m</p>
+        </div>
+        </div>
+    </div>
+    </div></a>
+    <div class="restaurants">
+        <a href = "Publiqrest.html"><div class="restaurants_sectone"><img src="./IMG/publiqres.jpg" alt="Image Here">
+        <div class="restaurants_secttwo">
+            <div class="title"><h3>Publiq</h3><h4 class="ratings">4.3 <svg xmlns="http://www.w3.org/2000/svg" class = "star" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></h4></div>
+            <div class="desc"><p>North Indian,Pizza,Pasta,....</p><p>₹1,900 for two</p></div>
+            <div class="location"><p>Baner,Pune</p><p>983m</p></div>
+            </div>
+        </div>
+    </div></a>
+    <div class="restaurants">
+        <a href="Rio.html">
+        <div class="restaurants_sectone"><img src="./IMG/rio.jpg" alt="Image Here">
+        <div class="restaurants_secttwo">
+            <div class="title"><h3>RIO Kitchen & Bar</h3><h4 class="ratings">4.3 <svg xmlns="http://www.w3.org/2000/svg" class = "star" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></h4></div>
+            <div class="desc"><p>North Indian,Pizza,Pasta,....</p><p>₹1,900 for two</p></div>
+        <div class="location"><p>Baner,Pune</p><p>983m</p>
+        </div>
+        </div>
+    </div>
+    </div></a>
+    <div class="restaurants">
+        <a href="SpiceFactory.html">
+        <div class="restaurants_sectone"><img src="./IMG/Spicefactoryres.jpg" alt="Image Here">
+        <div class="restaurants_secttwo">
+            <div class="title"><h3>Spice Factory</h3><h4 class="ratings">4.3 <svg xmlns="http://www.w3.org/2000/svg" class = "star" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></h4></div>
+            <div class="desc"><p>North Indian,Pizza,Pasta,....</p><p>₹1,900 for two</p></div>
+        <div class="location"><p>Baner,Pune</p><p>983m</p>
+        </div>
+        </div>
+    </div>
+    </div></a>
+    <div class="restaurants">
+        <a href="Thikana.html">
+        <div class="restaurants_sectone"><img src="./IMG/thikanares.jpg" alt="Image Here">
+        <div class="restaurants_secttwo">
+            <div class="title"><h3>Thikana</h3><h4 class="ratings">4.3 <svg xmlns="http://www.w3.org/2000/svg" class = "star"width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></h4></div>
+            <div class="desc"><p>North Indian,Pizza,Pasta,....</p><p>₹1,900 for two</p></div>
+        <div class="location"><p>Baner,Pune</p><p>983m</p>
+        </div>
+        </div>
+    </div>
+    </div></a>
+    <div class="restaurants">
+        <a href="UrbanFoundary.html">
+        <div class="restaurants_sectone"><img src="./IMG/Urban Foundary.jpg" alt="Image Here">
+        <div class="restaurants_secttwo">
+            <div class="title"><h3>Urban Foundary</h3><h4 class="ratings">4.3 <svg xmlns="http://www.w3.org/2000/svg" class = "star" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></h4></div>
+            <div class="desc"><p>North Indian,Pizza,Pasta,....</p><p>₹1,900 for two</p></div>
+        <div class="location"><p>Baner,Pune</p><p>983m</p>
+        </div>
+        </div>
+    </div>
+    </div></a>
+    <div class="restaurants">
+        <a href="Poptates.html">
+        <div class="restaurants_sectone"><img src="./IMG/Pop.jpg" alt="Image Here">
+        <div class="restaurants_secttwo">
+            <div class="title"><h3>Pop & Tate's</h3><h4 class="ratings">4.3 <svg xmlns="http://www.w3.org/2000/svg" class = "star" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></h4></div>
+            <div class="desc"><p>North Indian,Pizza,Pasta,....</p><p>₹1,900 for two</p></div>
+        <div class="location"><p>Baner,Pune</p><p>983m</p>
+        </div>
+        </div>
+    </div>
+    </div></a>
+
+    <div class="restaurants">
+        <a href="icenfire.html">
+        <div class="restaurants_sectone"><img src="./IMG/icenfire.png" alt="Image Here">
+        <div class="restaurants_secttwo">
+            <div class="title"><h3>Ice N Fire</h3><h4 class="ratings">4.6 <svg xmlns="http://www.w3.org/2000/svg" class = "star" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></h4></div>
+            <div class="desc"><p>North Indian,Pizza,Pasta,....</p><p>₹1,900 for two</p></div>
+        <div class="location"><p>Baner,Pune</p><p>983m</p>
+        </div>
+        </div>
+    </div>
+    </div></a>
+
+    
+
+</div>
+<script src="./JS/script.js"></script>
+<script src="./JS/login.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src ="./JS/homepageanimation.js"></script> -->
+
+</body>
+</html>

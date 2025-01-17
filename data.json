@@ -1,0 +1,58 @@
+{
+  "register": [
+    {
+      "id": "2365",
+      "fullname": "sanket",
+      "Address": "pune",
+      "phone": "8888888888",
+      "email": "sanket123@gmail.com",
+      "password": "12345678",
+      "gender": "male"
+    },
+    {
+      "id": "dfd6",
+      "fullname": "sanket",
+      "Address": "pune",
+      "phone": "8888888888",
+      "email": "sanket123@gmail.com",
+      "password": "test@123",
+      "gender": "male"
+    },
+    {
+      "id": "2e69",
+      "fullname": "Avishkar",
+      "Address": "",
+      "phone": "",
+      "email": "",
+      "password": "",
+      "gender": "male"
+    },
+    {
+      "id": "86d0",
+      "fullname": "Avishkar mandlik",
+      "Address": "balaji nagar",
+      "phone": "1234567891",
+      "email": "avishkar@gmail.com",
+      "password": "12345678",
+      "gender": "male"
+    },
+    {
+      "id": "b1c6",
+      "fullname": "",
+      "Address": "",
+      "phone": "",
+      "email": "avishkar@gmail.com",
+      "password": "12345678",
+      "gender": "male"
+    },
+    {
+      "id": "3eba",
+      "fullname": "RUSHIKESH",
+      "Address": "Flt No : 11 , Chintamani Complex , Balaji Nagar , Dhankawadi, Pune",
+      "phone": "2",
+      "email": "avishkar@gmail.com",
+      "password": "12345678",
+      "gender": "male"
+    }
+  ]
+}

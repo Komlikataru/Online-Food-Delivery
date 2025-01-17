@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="./CSS/register.css">
+</head>
+<body>
+    <div class="m_container">
+        <div class="sup_form">
+            <h2>SIGN UP</h2>
+            <form  onsubmit="registerr()">
+                <!-- name -->
+                <div class="name_cont samecss">
+                    <input type="text" placeholder="Enter Your Name"> 
+                </div>
+                <!-- address -->
+                <div class="Add_cont samecss">
+                    <input type="text" placeholder="Address"> 
+                </div>
+                <!-- Phone Number -->
+                <div class="number_cont samecss">
+                    <input type="number" placeholder="Phone Number"> 
+                </div>
+                <!-- email -->
+                <div class="email_cont samecss">
+                    <input type="email" placeholder="Enter Your Email "> 
+                </div>
+                <!-- password -->
+                <div class="password_cont samecss">
+                    <input type="password" placeholder="Password"> 
+                </div>
+               <!-- confirm password -->
+                <div class="password_cont_conf samecss">
+                    <input type="password" placeholder="Confirm Password"> 
+                </div>
+                
+                <!-- radio btn -->
+                <div class="radiobtn">
+                    <input type="radio" value="male" name="register"><label >Male</label>
+                    <input type="radio" value="female" name="register"><label >Female</label> 
+                </div>
+        
+                <button type="submit" class="btn">Submit</button>
+        
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./js/Register.js"></script>
+</body>
+</html>

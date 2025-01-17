@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG-IN</title>
+    <link rel="stylesheet" href="./CSS/login.css">
+</head>
+<body onload="xyz()">
+   
+    <div class="maincontainer">
+        <div class="cont_img">
+            <div class="img_logo">
+                <img src="./IMG/hungrybird.png" alt="logo">
+                <h3>HUNGRY BIRD</h3>
+                
+            </div>
+            <div class="bg_img">
+                <img src="./IMG/foodpng.png" alt="img">
+            </div>
+            <div class="dec_logo">
+                <p>We serve fresh food with the best taste. Every dish is cooked with <br>a special recipe and exclusive spices. </p>
+            </div>
+        </div>
+        <form onsubmit="return log()">
+        <div class="cont_login">
+            <div class="login_logo"> <p>LOG IN</p></div>
+           
+            <div class="mail_cont">
+                <input type="email" name="email" id="email" placeholder="Email or Phone No" required>
+            </div> 
+            <div class="pass_cont">
+                <input type="password" name="password" id="password" placeholder="Password" required>
+            </div>
+            <div class="btn_login">
+                <button type="submit" class="btn">LOG IN</button>
+            </div>
+            <div class="btn_login_Forg">
+                <a href="#" class="forg_pass">Forgotten Password ?</a>
+            </div>
+            <hr class="hor_row">
+            <div class="btn_createac">
+                <a href="register.html" class="createac">Register</a>
+            </div>
+     
+        </div>
+    </form>
+    </div>
+
+    <script src="./JS/Register.js"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Initially we remove the bydefault padding and margin */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #F0F2F5;
+}
+
+/* Main conatiner */
+.maincontainer{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    height: auto;
+    /* background-color: rgb(183, 77, 77); */
+    margin-top: 100px;
+    overflow: hidden;
+    
+}
+
+/* conatiner for image */
+.cont_img{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* background-color: aqua; */
+    /* height: auto;
+    width: auto; */
+    margin-right: 50px;
+    padding: 40px;
+    /* position: relative; */
+}
+
+.img_logo{
+    /* background-color: rgb(177, 52, 52); */
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+.dec_logo{
+    /* background-color: aquamarine; */
+    height: auto;
+}
+.img_logo h3{
+    font-size:50px;
+    color: black;
+}
+.cont_img p{
+    font-size: 20px;
+    margin-left: 25px;
+
+}
+
+.bg_img img{
+    width: 350px;
+    position: absolute;
+    transform: rotate(280deg);
+    opacity:0.1;
+    z-index: -1;
+    top: 160px;
+    margin-left: 100px;
+}
+
+.img_logo img{
+    width: 100px;
+    height: auto;
+}
+
+
+/* conatiner for login */
+.cont_login{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    /* width: 25%; */
+    margin: 50px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px;
+    
+}
+/* login -LOGO */
+.login_logo{
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 60px;
+    cursor: pointer;
+    
+}
+.login_logo :hover {
+    color: #fcaf58;
+}
+.login_logo p{
+   color: #ff8c42;
+   width: 300px;
+   border-radius: 15px;
+   font-size: 30px;
+   padding: 10px;
+   font-weight: 800;
+
+}
+
+/* Email Container */
+.mail_cont{
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+    width: 100%;
+    height: 50px;
+
+}
+.mail_cont input{
+   font-size: 20px;
+   border-radius: 10px;
+   padding-left: 20px;
+   width: 80%;
+   
+}
+
+/* Password Conatiner */
+.pass_cont{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(201, 199, 58); */
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+
+}
+.pass_cont input{
+    font-size: 20px;
+   border-radius: 10px;
+   width: 80%;
+   outline: none;
+   padding: 20px;
+   
+
+}
+
+
+/* button log-in */
+.btn_login{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+
+}
+
+.btn_login :hover{
+    background-color: #f9c784;
+    color: black;
+}
+/* sign in btn */
+.btn{
+    background-color:#ff8c42;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    width: 290px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+/* Forgot Password */
+.btn_login_Forg{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.forg_pass{
+    
+    /* font-size: 50px; */
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* horizontal row */
+.hor_row{
+    margin-top: 10px;
+    width: 290px;
+}
+
+/* create account btn */
+.btn_createac{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.createac{
+    background-color:#ff8c42;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.createac:hover{
+    background-color: #f9c784;
+    color: black;
+}
+
+@media (max-width: 1200px){
+    .maincontainer{
+        flex-direction: column;
+    }
+    
+}
